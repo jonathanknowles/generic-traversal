@@ -1,0 +1,23 @@
+name:                generic-transform
+version:             0.1.0.0
+github:              "jonathanknowles/generic-transform"
+license:             BSD3
+author:              "Jonathan Knowles"
+maintainer:          "mail@jonathanknowles.net"
+copyright:           "2018 Jonathan Knowles"
+
+extra-source-files:
+- README.md
+
+description:         Generic transformations of arbitrary data structures.
+
+dependencies:
+- base >= 4.7 && < 5
+
+library:
+  source-dirs: src/lib
+  exposed-modules: Generic.Transform
+
+ghc-options:
+  -Wall -Werror
+
