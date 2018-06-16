@@ -33,7 +33,6 @@ genericTraverse
   => [Action m] -> d -> m d
 genericTraverse actions = visitItem
   where
-
     visitItem :: forall e . Data e => e -> m e
     visitItem d = loop actions
       where
