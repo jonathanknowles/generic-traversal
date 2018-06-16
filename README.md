@@ -1,2 +1,1 @@
-Generic transformations of arbitrary data structures.
-
+Generic traversal of arbitrary data structures in Haskell.
